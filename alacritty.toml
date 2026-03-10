@@ -1,3 +1,17 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+decorations = "Buttonless"
+opacity = 0.95
+blur = true
+option_as_alt = "Both"
+
+[font]
+size = 12
+
 [colors.primary]
 background = "#09090E"
 foreground = "#E0E6F0"
