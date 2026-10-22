@@ -8,20 +8,20 @@ local M = {
 				local colors = {
 					bg = "#09090E",
 					fg = "#E0E6F0",
-					purple = "#BD00FF",
-					primary = "#00E5FF",
+					purple = "#C561FF",
+					primary = "#00F0FF",
 					secondary = "#00FF9F",
-					success = "#33FFB2",
-					danger = "#FF007F",
+					success = "#7DFFC4",
+					danger = "#FF2A6D",
 					warning = "#FFE700",
-					info = "#00FFFF",
-					muted = "#44445A",
+					info = "#4D94FF",
+					muted = "#7A7A9E",
 					dark = "#151521",
 					accent = "#FF007F",
-					subtle = "#44445A",
+					subtle = "#2A2A3D",
 					border = "#44445A",
-					selection = "#FF007F",
-					sel_fg = "#09090E",
+					selection = "#3D1035",
+					sel_fg = "#FFFFFF",
 				}
 
 				vim.cmd("highlight clear")
@@ -30,7 +30,7 @@ local M = {
 					vim.api.nvim_set_hl(0, group, opts)
 				end
 
-				-- All highlight groups below use the new Cyber Aura colors
+				-- Cyber Aura: paleta ajustada para leitura
 				set_hl("Normal", { fg = colors.fg, bg = colors.bg })
 				set_hl("Comment", { fg = colors.muted, italic = true })
 				set_hl("Constant", { fg = colors.purple })
@@ -140,8 +140,8 @@ local M = {
 				set_hl("@storageclass", { link = "StorageClass" })
 				set_hl("@variable", { fg = colors.fg })
 				set_hl("@variable.builtin", { fg = colors.danger, bold = true, italic = true })
-				set_hl("@property", { link = "info" })
-				set_hl("@field", { link = "info" })
+				set_hl("@property", { fg = colors.info })
+				set_hl("@field", { fg = colors.info })
 				set_hl("@parameter", { fg = colors.warning, italic = true })
 				set_hl("@punctuation.bracket", { link = "Delimiter" })
 				set_hl("@punctuation.delimiter", { link = "Delimiter" })

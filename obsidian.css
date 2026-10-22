@@ -5,26 +5,26 @@
   /* Core colors */
   --background-primary: #09090E;
   --background-primary-alt: #09090E;
-  --background-secondary: #09090E;
-  --background-secondary-alt: #09090E;
+  --background-secondary: #151521;
+  --background-secondary-alt: #151521;
   --text-normal: #E0E6F0;
 
   /* Selection colors */
-  --text-selection: #FF007F;
+  --text-selection: #3D1035;
 
   /* Border color */
-  --background-modifier-border: #44445A;
+  --background-modifier-border: #2A2A3D;
 
   /* Semantic heading colors */
   --text-title-h1: #FF007F;
   --text-title-h2: #00FF9F;
   --text-title-h3: #FFE700;
-  --text-title-h4: #00E5FF;
-  --text-title-h5: #BD00FF;
-  --text-title-h6: #BD00FF;
+  --text-title-h4: #4D94FF;
+  --text-title-h5: #C561FF;
+  --text-title-h6: #C561FF;
 
   /* Links and accents */
-  --text-link: #00E5FF;
+  --text-link: #4D94FF;
   --text-accent: #FF007F;
   --text-accent-hover: #FF007F;
   --interactive-accent: #FF007F;
@@ -35,22 +35,22 @@
   --text-faint: color-mix(in srgb, #E0E6F0 55%, transparent);
 
   /* Code */
-  --code-normal: #00FFFF;
+  --code-normal: #00F0FF;
 
   /* Errors and success */
-  --text-error: #FF007F;
-  --text-error-hover: #FF007F;
+  --text-error: #FF2A6D;
+  --text-error-hover: #FF5C8D;
   --text-success: #00FF9F;
 
   /* Tags */
-  --tag-color: #00FFFF;
-  --tag-background: #44445A;
+  --tag-color: #00F0FF;
+  --tag-background: #2A2A3D;
 
   /* Graph */
-  --graph-line: #44445A;
+  --graph-line: #2A2A3D;
   --graph-node: #FF007F;
-  --graph-node-focused: #00E5FF;
-  --graph-node-tag: #00FFFF;
+  --graph-node-focused: #4D94FF;
+  --graph-node-tag: #00F0FF;
   --graph-node-attachment: #00FF9F;
 }
 
@@ -87,7 +87,7 @@
 
 /* Code blocks */
 .markdown-rendered code {
-  color: #00FFFF;
+  color: #00F0FF;
 }
 
 /* Syntax highlighting */
@@ -104,15 +104,15 @@
 }
 
 .cm-s-obsidian span.cm-comment {
-  color: #44445A;
+  color: #7A7A9E;
 }
 
 .cm-s-obsidian span.cm-operator {
-  color: #00E5FF;
+  color: #4D94FF;
 }
 
 .cm-s-obsidian span.cm-def {
-  color: #00E5FF;
+  color: #4D94FF;
 }
 
 /* Links */

@@ -1,0 +1,9 @@
+# Barra translúcida (substitui o antigo waybar.css). 0.6 mantém o texto legível
+# mesmo sobre wallpapers claros; o antigo 0.3 só funcionava em fundos escuros.
+background       = "#09090E"
+background-alpha = 0.6
+text             = "#E0E6F0"
+active           = "#FF2A6D"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
