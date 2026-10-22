@@ -8,7 +8,7 @@ theme[main_fg]="#E0E6F0"
 theme[title]="#FF007F"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#00E5FF"
+theme[hi_fg]="#00F0FF"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#151521"
@@ -17,16 +17,16 @@ theme[selected_bg]="#151521"
 theme[selected_fg]="#FF007F"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#44445A"
+theme[inactive_fg]="#7A7A9E"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#BD00FF"
+theme[proc_misc]="#C561FF"
 
 # Box outline and divider line color
 theme[cpu_box]="#FF007F"
 theme[mem_box]="#00FF9F"
-theme[net_box]="#00E5FF"
-theme[proc_box]="#BD00FF"
+theme[net_box]="#00F0FF"
+theme[proc_box]="#C561FF"
 theme[div_line]="#44445A"
 
 # Temperature graph color
@@ -35,21 +35,25 @@ theme[temp_mid]="#FFE700"
 theme[temp_end]="#FF007F"
 
 # CPU graph colors
-theme[cpu_start]="#00E5FF"
-theme[cpu_mid]="#BD00FF"
+theme[cpu_start]="#4D94FF"
+theme[cpu_mid]="#C561FF"
 theme[cpu_end]="#FF007F"
 
 # Mem/Disk free meter
 theme[free_start]="#00FF9F"
-theme[free_mid]="#00E5FF"
-theme[free_end]="#BD00FF"
+theme[free_mid]="#4D94FF"
+theme[free_end]="#C561FF"
 
 # Download graph colors
-theme[download_start]="#00E5FF"
-theme[download_mid]="#00FFFF"
+theme[download_start]="#4D94FF"
+theme[download_mid]="#00F0FF"
 theme[download_end]="#00FF9F"
 
 # Upload graph colors
 theme[upload_start]="#FF007F"
-theme[upload_mid]="#BD00FF"
-theme[upload_end]="#FF3399"
+theme[upload_mid]="#C561FF"
+theme[upload_end]="#FF5C8D"
+
+# Text on top of graphs and the background of percentage meters
+theme[graph_text]="#9A9FB8"
+theme[meter_bg]="#151521"
